@@ -1,0 +1,319 @@
+body {
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+h3,
+h4,
+h5,
+h5 {
+    margin: 0;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro {
+    height: 100vh;
+    width: 100%;
+    background: url(foto1/Livello%201.jpg) center no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+}
+
+.nav {
+    width: auto;
+    align-items: center;
+    max-width: 1200px;
+    margin: 40px auto;
+    display: inline-block;
+}
+
+.nav__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    margin: 0 60px;
+    font-size: 20px;
+}
+
+.nav__link:hover {
+    color: #16a085;
+    transition: color .2s linear;
+}
+
+.nav__link:hover:after {
+    content: "";
+    background-color: #16a085;
+    width: 100%;
+    height: 3px;
+    display: block;
+    transition: .2s linear;
+    position: absolute;
+}
+
+.nav__link--divice {
+    border: 0;
+}
+
+.header__logo {
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: -30px;
+    margin-top: 220px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+.btn {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #16a085;
+    padding: 15px 30px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: .2s linear;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.social {
+    margin-top: 180px;
+}
+
+.section--devices {
+    width: 100%;
+    height: 60vh;
+    background: url('foto1/phototime_20.jpg') center no-repeat;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+.section {
+    padding: 80px 0;
+    position: relative;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    color: #16a085;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    font-weight: 800;
+    font-size: 12px;
+    color: #909091;
+    margin-bottom: 50px;
+}
+
+.bold {
+    color: #333;
+    font-weight: 900;
+}
+
+.section--device {
+    width: 100%;
+    height: 60vh;
+    background: url("foto1/foto09.jpg") center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.text__two {
+    right: 100px;
+    top: 0;
+    position: absolute;
+}
+
+.cifri {
+    position: relative;
+    margin-top: 40px;
+    font-weight: 700;
+    margin-bottom: -3px;
+}
+
+.btn--knopka {}
+
+.button {
+    color: transparent;
+    font-size: 0;
+    position: absolute;
+}
+
+.button:after {
+    content: "";
+    border-left: 2px solid #333;
+    border-top: 2px solid #333;
+    width: 10px;
+    height: 10px;
+    display: block;
+    z-index: 1;
+}
+
+.button--prev {
+    transform: rotate(-45deg);
+    margin-left: 9px;
+}
+
+.button--next {
+    transform: rotate(135deg);
+    margin-left: 20px;
+}
+
+.container__inner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.lftainer {
+    text-align: center;
+}
+
+.section--hren {
+    background-color: #f5f6f7;
+}
+
+h5 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    font-size: 20px;
+}
+
+.container__inner {
+    align-items: center;
+}
+
+.buton {
+    position: absolute;
+    color: transparent;
+    font-size: 0;
+}
+
+.buton:before {
+    content: "";
+    border-left: 2px solid #333;
+    border-top: 2px solid #333;
+    width: 10px;
+    height: 10px;
+    display: block;
+    z-index: 1;
+}
+
+.buton--nexta {
+    transform: rotate(135deg);
+    margin-left: 20px;
+    margin-top: -20px;
+    margin-left: -10px;
+}
+
+.buton--preva {
+    transform: rotate(-45deg);
+    margin-left: 9px;
+    margin-top: -20px;
+    margin-left: -30px;
+}
+
+.adress {
+    width: 100%;
+    height: 100vh;
+    background: url("foto1/phototime_06.jpg") center no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+
+}
+
+.section--rabl {
+    margin-top: -87px;
+}
+.forma{
+    background-color: #fff;
+    text-transform: uppercase;
+    border: 0;
+    width: 200px;
+    height: 45px;
+    font-weight: 777;
+    color: #333;
+    text-align: center;
+
+}
+.fotomoto{
+    height: 45px;
+    position: absolute;
+    top: 0;
+    margin-left: -12px;
+}
+.formamoto{
+    position: absolute;
+    display: flex;
+}
+form{
+    position: relative;
+}
+.container--heriner{
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
